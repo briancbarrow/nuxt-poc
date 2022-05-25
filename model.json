@@ -3,20 +3,18 @@
   ":description": "This is a simple example of a FrontAid CMS model. You can change and extend it according to your needs, for example add new fields or restructure it. You can edit this file by cloning this repository and update it with your local editor and push it back into this Git repository. ",
   "frontmatter": {
     ":description": "This is an example frontmatter object.",
-    ":items": {
-      "date": { ":type": "line" },
-      "title": { ":type": "line" },
-      "author": { ":type": "line" },
-      "tags": { ":type": "line" },
-      "cover": { ":type": "line" },
-      "ograph": { ":type": "line" },
-      "cover_alt": { ":type": "line" },
-      "description": { ":type": "text" },
-      "seo": {
-        ":items": {
-          ":description": "Comma separated words, Ex: javascript, deno, node, api, rest",
-          "keywords": { ":type": "line" }
-        }
+    "date": { ":type": "line" },
+    "title": { ":type": "line" },
+    "author": { ":type": "line" },
+    "tags": { ":type": "line" },
+    "cover": { ":type": "line" },
+    "ograph": { ":type": "line" },
+    "cover_alt": { ":type": "line" },
+    "description": { ":type": "text" },
+    "seo": {
+      ":items": {
+        ":description": "Comma separated words, Ex: javascript, deno, node, api, rest",
+        "keywords": { ":type": "line" }
       }
     }
   },
