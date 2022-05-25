@@ -1,1 +1,17 @@
-{}
+{
+  "frontmatter": {
+    "date": "2022-05-25",
+    "title": "Test Post",
+    "author": "brianbarrow",
+    "tags": "test, node, javascript",
+    "cover": "./fake-cover.png",
+    "cover_alt": "Fake Image Text",
+    "description": "Look at me. I'm writing a post using FrontAid CMS",
+    "seo": [
+      {
+        "keywords": "javascript, deno, api"
+      }
+    ]
+  },
+  "body": "<h2><strong>What is Deno?</strong></h2><p><br>Deno is a new JavaScript runtime. It was built by Ryan Dahl, the creator of Node.js. Dahl had a few things that he regretted doing with Node and wanted to build a runtime that could solve those issues. Deno, like Node, is built on the V8 JavaScript engine but was built using Rust instead of C++.<br>One of the main goals of Deno is to bring server side JavaScript closer to browser JavaScript. If you've written in both Node and browser JavaScript, then you have surely run into the differences in the APIs used in the respective spaces. Deno aims to have the same APIs on the server that you would use in the browser. We'll take a deeper look at specific examples of this later on.<br></p><h2><br><strong>Key Features of Deno</strong></h2><h3><br><strong>TypeScript</strong></h3><p><br>One of the most eye catching features of Deno is that it treats TypeScript as a first class language out of the box. This means you can run or use TypeScript without installing any other external or third party packages. It just works. TypeScript is increasingly popular in the JavaScript world, and lots of tools and companies are pushing towards using it. It is cool to see a new progressive technology like TypeScript get more attention, and getting first class status in a big project like Deno is a huge step forward.</p>"
+}
