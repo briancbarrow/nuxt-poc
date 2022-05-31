@@ -1,0 +1,38 @@
+---
+label: Blog post
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: title
+  label: title
+- type: text
+  name: author
+  label: author
+- type: text
+  name: category
+  label: category
+- type: file
+  name: cover
+  label: cover
+- type: text
+  name: ograph
+  label: ograph
+- type: text
+  name: cover_alt
+  label: cover_alt
+- type: text
+  name: description
+  label: description
+- type: list
+  name: tags
+  label: tags
+- type: field_group
+  name: seo
+  label: seo
+  fields:
+  - type: text
+    name: keywords
+    label: keywords
