@@ -1,19 +1,26 @@
 ---
-date: 2022-05-16
-title: "Taking a Look at Deno Deploy"
+date: {}
+title: Taking a Look at Deno Deploy
 author: brianbarrow
 category: tutorial
-# TODO: Need to update the cover image
 cover: ./Build-Todo-list-w-Vue3-Pinia@2x.jpg
-ograph:
+ograph: null
 cover_alt: Taking a Look at Deno Deploy
 description: Look at what Deno Deploy is and how to deploy your code to
-tags: [node, deno, javascript, tutorial, api]
+tags:
+  - node
+  - deno
+  - javascript
+  - tutorial
+  - api
 seo:
-  keywords: javascript, deno, node, api, rest
+  keywords: 'javascript, deno, node, api, rest'
+published: true
 ---
 
 ## What is Deno?
+
+Testing Prose
 
 Deno is a new JavaScript runtime. It was built by Ryan Dahl, the creator of Node.js. Dahl had a few things that he regretted doing with Node and wanted to build a runtime that could solve those issues. Deno, like Node, is built on the V8 JavaScript engine but was built using Rust instead of C++.
 
